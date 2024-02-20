@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pydantic = "*"
+python-dotenv = "*"
+requests = "*"
+pyjwt = "*"
+beeprint = "*"
+
+[dev-packages]
+autoflake = "*"
+black = "*"
+
+[requires]
+python_version = "3.11"
